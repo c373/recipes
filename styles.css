@@ -18,9 +18,8 @@ h2, h3 {
 	padding-bottom: 5px;
 }
 
-ul, ol {
-padding-left: auto;
-padding-right: auto;
+ul .content, ol .content {
+padding-left: 25%;
 	padding-top: 5px;
 }
 
