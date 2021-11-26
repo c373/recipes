@@ -27,8 +27,11 @@ ol ul {
 	background-color: #E9F9E9;
 }
 
+.title .center {
+text-align: center;
+}
+
 .title {
-	text-align: center;
 	padding: 20px;
 	font-size: 72px;
 }
