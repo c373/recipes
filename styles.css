@@ -1,5 +1,16 @@
+@font-face {
+	font-family: mexican-fiesta;
+	src: url(fonts/mexican-fiesta.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Carme;
+	src: url(fonts/Carme-Regular.ttf) format("truetype");
+}
+
 * {
-	font-family: Arial, sans-serif;
+	font-family: Carme, Arial, sans-serif;
+	color: #405040;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -10,7 +21,6 @@ a:hover {
 }
 
 a {
-	color: black;
 	text-decoration: none;
 }
 
@@ -40,13 +50,30 @@ ul.content, ol.content {
 text-align: center;
 }
 
+.heading {
+	font-weight: 1000;
+}
+
 .title {
-	padding: 20px;
+	padding-bottom: 20px;
 	font-size: 72px;
+	font-family: mexican-fiesta, Arial, sans-serif;
+}
+
+.title.center, .imgback {
+	background-color: #405040;
+	color: #F0FFF0;
 }
 
 #navigation-bar {
 	padding-top: 100px;
+	font-family: mexican-fiesta, Arial, sans-serif;
+	font-size: 36px;
+}
+
+#navigation-bar a {
+	font-family: inherit;
+	font-size: inherit;
 }
 
 #recipe-list {
